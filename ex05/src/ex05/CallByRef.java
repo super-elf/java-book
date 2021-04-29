@@ -12,9 +12,9 @@ class Obj {
 public class CallByRef {
 	public static void main(String[] args) {
 		Obj obj = new Obj();
-		System.out.println(" �ѦҩI�s�e\t a = " + obj.a + "\tb = " + obj.b);
+		System.out.println(" 參考呼叫前\t a = " + obj.a + "\tb = " + obj.b);
 		byRef(obj);
-		System.out.println(" �ѦҩI�s��\t a = " + obj.a + "\tb = " + obj.b);
+		System.out.println(" 參考呼叫後\t a = " + obj.a + "\tb = " + obj.b);
 	}
 
 	static void byRef(Obj p) {
